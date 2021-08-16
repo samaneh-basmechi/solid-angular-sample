@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+
+<main class="content">
+
+    <app-widget>
+        <button button mat-stroked-button (click)="onExportJson()">Export as Json</button>
+        <app-weather body></app-weather>
+    </app-widget>
+
+    <app-widget>
+        <app-report body></app-report>
+    </app-widget>
+
+    <app-widget>
+        <app-chart body></app-chart>
+    </app-widget>
+</main>
